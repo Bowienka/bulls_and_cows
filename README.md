@@ -1,10 +1,34 @@
-# bulls_and_cows
-logical game for one player
+# Bulls & Cows
 
-Cíle hry "bulls_and_cows" je uhádnout počítačem vygenerované čtyřmístné číslo a vyčerpat přitom co nejméně pokusů.
-PRŮBĚH HRY:
-Číslice v tajném čísle se nesmějí opakovat a tajné číslo nesmí začínat nulou.
-Hráč zadá svůj tip- Program uživatelův tip vyhodnotí pomocí hlášení počtu "bulls" a "cows":
-  "Bulls" označuje, že hráč úhádl nejen správnou číslici, ale i její pozici v rámci číselné sekvence.
-  "Cows" označuje, že hráč tipoval správnou číslici, neodhalil však její pozici v tajném čísle.
-Hra končí, jakmile hráč odhalí všechny číalice i jejich pozici v rámci číselné řady.
+Tato hra byla vytvořena coby druhý projekt v rámci online Python Akademie společnosti Engeto. Jedná se o jednoduchou konzolovou hru „Bulls & Cows“, v níž se hráč snaží uhodnout náhodně vygenerované čtyřmístné číslo.
+
+## Popis hry
+
+Hra je založena na klasické logické hře, v níž hráč hádá jemu neznámé čtyřmístné číslo. Cílem hry je tajné číslo co nejrychleji odhalit za použití nápověd „Bulls“ a „Cows“.
+
+- **Bulls:** počet správně uhodnutých číslic na správné pozici.
+- **Cows:** Počet správně uhodnutých číslic, ovšem nikoli na správné pozici.
+
+## Jak hrát
+
+1. Spusťte skript `projekt_2.py` v prostředí Pythonu.
+2. Po spuštění hry se zobrazí uvítací zpráva a výzva k zadání tipu.Zadejte odhadovanou čtyřmístnou číselnou kombinaci.
+3. Hra vám napoví, kolik „Bulls“ (správně umístěných číslic) a kolik „Cows“ (správně uhodnutých číslic, ovšem v nesprávné pozici) jste uhodli.
+4. Pokračujte v hádání a dostávejte zpětnou vazbu, dokud neodhalíte celou kombinaci („Bulls: 4“).
+5. Po uhodnutí správné kombinace se dozvíte, na kolik pokusů jste číslo uhádli, a obdržíte hodnocení.
+
+## Kritéria hodnocení
+
+V závěru hry se vám dostane zpětné vazby ohledně vašeho výkonu:
+
+- Pokud jste číslo uhodli za 5 a méně pokusů, získáte hodnocení „That's awesome!“ („Skvěle!“).
+- Pokud jste číslo uhodli za 6 až 15 pokusů, obdržíte hodnocení „That's average“ („Průměrný výkon“).
+- Pokud jste k odhalení čísla potřebovali více než 15 pokusů, dostanete hodnocení „That's no so good“ („Nic moc“).
+
+## Kontakt
+
+Pokud máte nějaké dotazy, nápady nebo připomínky k této hře, neváhejte kontaktovat autora:
+
+- **Autor:** Helena Vyplelová
+- **E-mail:** vyplelhel@seznam.cz
+- **Discord:** Helena V. /.helenav.
