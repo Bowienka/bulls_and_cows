@@ -5,7 +5,7 @@ author: Helena Vyplelová
 import random
 
 separator = "-" *55 
-number_length = 4
+number_length = 4 
 
 print("Hi there!")
 print(separator)
