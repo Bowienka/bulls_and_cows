@@ -1,6 +1,6 @@
 # Bulls & Cows
 
-Tato hra byla vytvořena coby druhý projekt v rámci online Python Akademie společnosti Engeto. Jedná se o jednoduchou konzolovou hru „Bulls & Cows“, v níž se hráč snaží uhodnout náhodně vygenerované čtyřmístné číslo.
+V této jednoduché konzolové hře se hráč snaží uhodnout náhodně vygenerované čtyřmístné číslo.
 
 ## Popis hry
 
